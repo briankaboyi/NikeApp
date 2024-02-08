@@ -11,7 +11,7 @@ class MyHomePage extends GetView {
       body: Container(
         color: Color(0xFFF86D75),
         child: Padding(
-          padding: const EdgeInsets.only(top: 40.0, bottom: 40),
+          padding: const EdgeInsets.only(top: 40.0, bottom: 20),
           child: Stack(
             children: [
               Column(
@@ -48,10 +48,10 @@ class MyHomePage extends GetView {
                   Padding(
                     padding: const EdgeInsets.only(top:15.0),
                     child: Text('New Exclusive \nCollections',
-                        style: TextStyle(color: Colors.white,fontSize: 38)),
+                        style: TextStyle(color: Colors.white,fontSize: 40)),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top:15.0),
+                    padding: const EdgeInsets.only(top:15.0 ,bottom:15),
                     child: Text('Taking your athletic \nperfomance to new heights',
                         style: TextStyle(color: Colors.white,fontSize: 18)),
                   ),
